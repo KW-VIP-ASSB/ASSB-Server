@@ -1,8 +1,4 @@
-# FastAPI와 서버 실행
-fastapi
-uvicorn[standard]
 
-# LangChain 및 OpenAI 연동
 openai
 tiktoken
 langchain==0.2.1
@@ -10,13 +6,11 @@ langchain-core==0.2.1
 langchain-mongodb==0.1.5
 langchain-openai==0.1.7
 langchain_community==0.2.1
-# LangSmith 추적 및 실험 관리
-langsmith
 
-# 환경변수 관리용
 python-dotenv
 
 httpx
 
 pydantic
 typing-extensions
+beautifulsoup4==4.12.2
