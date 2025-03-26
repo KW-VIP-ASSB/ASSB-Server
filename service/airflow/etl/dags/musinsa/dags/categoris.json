@@ -1,0 +1,1878 @@
+[
+    {
+        "name": "아우터",
+        "category": "002",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "아우터",
+        "tags": [
+            "아우터"
+        ]
+    },
+    {
+        "name": "상의",
+        "category": "001",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "상의",
+        "tags": [
+            "상의"
+        ]
+    },
+    {
+        "name": "바지",
+        "category": "003",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "바지",
+        "tags": [
+            "바지"
+        ]
+    },
+    {
+        "name": "원피스/스커트",
+        "category": "004",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "원피스/스커트",
+        "tags": [
+            "원피스/스커트"
+        ]
+    },
+    {
+        "name": "속옷/홈웨어",
+        "category": "026",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "속옷/홈웨어",
+        "tags": [
+            "속옷/홈웨어"
+        ]
+    },
+    {
+        "name": "스포츠/레저",
+        "category": "017",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "스포츠/레저",
+        "tags": [
+            "스포츠/레저"
+        ]
+    },
+    {
+        "name": "키즈",
+        "category": "106",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            }
+        ],
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106&caller=CATEGORY&page={page}&size=100",
+        "lv": 1,
+        "tagName": "키즈",
+        "tags": [
+            "키즈"
+        ]
+    },
+    {
+        "name": "후드 집업",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002022&caller=CATEGORY&page={page}&size=100",
+        "category": "002022",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "후드 집업",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 후드 집업",
+        "tags": [
+            "아우터",
+            "후드 집업"
+        ]
+    },
+    {
+        "name": "블루종/MA-1",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002001&caller=CATEGORY&page={page}&size=100",
+        "category": "002001",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "블루종/MA-1",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 블루종/MA-1",
+        "tags": [
+            "아우터",
+            "블루종/MA-1"
+        ]
+    },
+    {
+        "name": "레더/라이더스 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002002&caller=CATEGORY&page={page}&size=100",
+        "category": "002002",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "레더/라이더스 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 레더/라이더스 재킷",
+        "tags": [
+            "아우터",
+            "레더/라이더스 재킷"
+        ]
+    },
+    {
+        "name": "트러커 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002017&caller=CATEGORY&page={page}&size=100",
+        "category": "002017",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "트러커 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 트러커 재킷",
+        "tags": [
+            "아우터",
+            "트러커 재킷"
+        ]
+    },
+    {
+        "name": "슈트/블레이저 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002003&caller=CATEGORY&page={page}&size=100",
+        "category": "002003",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "슈트/블레이저 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 슈트/블레이저 재킷",
+        "tags": [
+            "아우터",
+            "슈트/블레이저 재킷"
+        ]
+    },
+    {
+        "name": "카디건",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002020&caller=CATEGORY&page={page}&size=100",
+        "category": "002020",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "카디건",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 카디건",
+        "tags": [
+            "아우터",
+            "카디건"
+        ]
+    },
+    {
+        "name": "아노락 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002019&caller=CATEGORY&page={page}&size=100",
+        "category": "002019",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "아노락 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 아노락 재킷",
+        "tags": [
+            "아우터",
+            "아노락 재킷"
+        ]
+    },
+    {
+        "name": "트레이닝 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002018&caller=CATEGORY&page={page}&size=100",
+        "category": "002018",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "트레이닝 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 트레이닝 재킷",
+        "tags": [
+            "아우터",
+            "트레이닝 재킷"
+        ]
+    },
+    {
+        "name": "스타디움 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002004&caller=CATEGORY&page={page}&size=100",
+        "category": "002004",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "스타디움 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 스타디움 재킷",
+        "tags": [
+            "아우터",
+            "스타디움 재킷"
+        ]
+    },
+    {
+        "name": "환절기 코트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002008&caller=CATEGORY&page={page}&size=100",
+        "category": "002008",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "환절기 코트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 환절기 코트",
+        "tags": [
+            "아우터",
+            "환절기 코트"
+        ]
+    },
+    {
+        "name": "숏패딩/헤비 아우터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002012&caller=CATEGORY&page={page}&size=100",
+        "category": "002012",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "숏패딩/헤비 아우터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 숏패딩/헤비 아우터",
+        "tags": [
+            "아우터",
+            "숏패딩/헤비 아우터"
+        ]
+    },
+    {
+        "name": "무스탕/퍼",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002025&caller=CATEGORY&page={page}&size=100",
+        "category": "002025",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "무스탕/퍼",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 무스탕/퍼",
+        "tags": [
+            "아우터",
+            "무스탕/퍼"
+        ]
+    },
+    {
+        "name": "플리스/뽀글이",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002023&caller=CATEGORY&page={page}&size=100",
+        "category": "002023",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "플리스/뽀글이",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 플리스/뽀글이",
+        "tags": [
+            "아우터",
+            "플리스/뽀글이"
+        ]
+    },
+    {
+        "name": "겨울 싱글 코트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002007&caller=CATEGORY&page={page}&size=100",
+        "category": "002007",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "겨울 싱글 코트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 겨울 싱글 코트",
+        "tags": [
+            "아우터",
+            "겨울 싱글 코트"
+        ]
+    },
+    {
+        "name": "겨울 더블 코트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002024&caller=CATEGORY&page={page}&size=100",
+        "category": "002024",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "겨울 더블 코트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 겨울 더블 코트",
+        "tags": [
+            "아우터",
+            "겨울 더블 코트"
+        ]
+    },
+    {
+        "name": "겨울 기타 코트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002009&caller=CATEGORY&page={page}&size=100",
+        "category": "002009",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "겨울 기타 코트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 겨울 기타 코트",
+        "tags": [
+            "아우터",
+            "겨울 기타 코트"
+        ]
+    },
+    {
+        "name": "베스트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002021&caller=CATEGORY&page={page}&size=100",
+        "category": "002021",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "베스트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 베스트",
+        "tags": [
+            "아우터",
+            "베스트"
+        ]
+    },
+    {
+        "name": "롱패딩/헤비 아우터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002013&caller=CATEGORY&page={page}&size=100",
+        "category": "002013",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "롱패딩/헤비 아우터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 롱패딩/헤비 아우터",
+        "tags": [
+            "아우터",
+            "롱패딩/헤비 아우터"
+        ]
+    },
+    {
+        "name": "사파리/헌팅 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002014&caller=CATEGORY&page={page}&size=100",
+        "category": "002014",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "사파리/헌팅 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 사파리/헌팅 재킷",
+        "tags": [
+            "아우터",
+            "사파리/헌팅 재킷"
+        ]
+    },
+    {
+        "name": "나일론/코치 재킷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002006&caller=CATEGORY&page={page}&size=100",
+        "category": "002006",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "나일론/코치 재킷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 나일론/코치 재킷",
+        "tags": [
+            "아우터",
+            "나일론/코치 재킷"
+        ]
+    },
+    {
+        "name": "패딩 베스트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002016&caller=CATEGORY&page={page}&size=100",
+        "category": "002016",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "패딩 베스트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 패딩 베스트",
+        "tags": [
+            "아우터",
+            "패딩 베스트"
+        ]
+    },
+    {
+        "name": "기타 아우터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=002015&caller=CATEGORY&page={page}&size=100",
+        "category": "002015",
+        "data": [
+            {
+                "name": "아우터",
+                "lv": 1
+            },
+            {
+                "name": "기타 아우터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "아우터 -> 기타 아우터",
+        "tags": [
+            "아우터",
+            "기타 아우터"
+        ]
+    },
+    {
+        "name": "맨투맨/스웨트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001005&caller=CATEGORY&page={page}&size=100",
+        "category": "001005",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "맨투맨/스웨트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 맨투맨/스웨트",
+        "tags": [
+            "상의",
+            "맨투맨/스웨트"
+        ]
+    },
+    {
+        "name": "후드 티셔츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001004&caller=CATEGORY&page={page}&size=100",
+        "category": "001004",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "후드 티셔츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 후드 티셔츠",
+        "tags": [
+            "상의",
+            "후드 티셔츠"
+        ]
+    },
+    {
+        "name": "셔츠/블라우스",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001002&caller=CATEGORY&page={page}&size=100",
+        "category": "001002",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "셔츠/블라우스",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 셔츠/블라우스",
+        "tags": [
+            "상의",
+            "셔츠/블라우스"
+        ]
+    },
+    {
+        "name": "피케/카라 티셔츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001003&caller=CATEGORY&page={page}&size=100",
+        "category": "001003",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "피케/카라 티셔츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 피케/카라 티셔츠",
+        "tags": [
+            "상의",
+            "피케/카라 티셔츠"
+        ]
+    },
+    {
+        "name": "긴소매 티셔츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001010&caller=CATEGORY&page={page}&size=100",
+        "category": "001010",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "긴소매 티셔츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 긴소매 티셔츠",
+        "tags": [
+            "상의",
+            "긴소매 티셔츠"
+        ]
+    },
+    {
+        "name": "반소매 티셔츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001001&caller=CATEGORY&page={page}&size=100",
+        "category": "001001",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "반소매 티셔츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 반소매 티셔츠",
+        "tags": [
+            "상의",
+            "반소매 티셔츠"
+        ]
+    },
+    {
+        "name": "니트/스웨터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001006&caller=CATEGORY&page={page}&size=100",
+        "category": "001006",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "니트/스웨터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 니트/스웨터",
+        "tags": [
+            "상의",
+            "니트/스웨터"
+        ]
+    },
+    {
+        "name": "민소매 티셔츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001011&caller=CATEGORY&page={page}&size=100",
+        "category": "001011",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "민소매 티셔츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 민소매 티셔츠",
+        "tags": [
+            "상의",
+            "민소매 티셔츠"
+        ]
+    },
+    {
+        "name": "기타 상의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=001008&caller=CATEGORY&page={page}&size=100",
+        "category": "001008",
+        "data": [
+            {
+                "name": "상의",
+                "lv": 1
+            },
+            {
+                "name": "기타 상의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "상의 -> 기타 상의",
+        "tags": [
+            "상의",
+            "기타 상의"
+        ]
+    },
+    {
+        "name": "데님 팬츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003002&caller=CATEGORY&page={page}&size=100",
+        "category": "003002",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "데님 팬츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 데님 팬츠",
+        "tags": [
+            "바지",
+            "데님 팬츠"
+        ]
+    },
+    {
+        "name": "트레이닝/조거 팬츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003004&caller=CATEGORY&page={page}&size=100",
+        "category": "003004",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "트레이닝/조거 팬츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 트레이닝/조거 팬츠",
+        "tags": [
+            "바지",
+            "트레이닝/조거 팬츠"
+        ]
+    },
+    {
+        "name": "코튼 팬츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003007&caller=CATEGORY&page={page}&size=100",
+        "category": "003007",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "코튼 팬츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 코튼 팬츠",
+        "tags": [
+            "바지",
+            "코튼 팬츠"
+        ]
+    },
+    {
+        "name": "슈트 팬츠/슬랙스",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003008&caller=CATEGORY&page={page}&size=100",
+        "category": "003008",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "슈트 팬츠/슬랙스",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 슈트 팬츠/슬랙스",
+        "tags": [
+            "바지",
+            "슈트 팬츠/슬랙스"
+        ]
+    },
+    {
+        "name": "숏 팬츠",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003009&caller=CATEGORY&page={page}&size=100",
+        "category": "003009",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "숏 팬츠",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 숏 팬츠",
+        "tags": [
+            "바지",
+            "숏 팬츠"
+        ]
+    },
+    {
+        "name": "레깅스",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003005&caller=CATEGORY&page={page}&size=100",
+        "category": "003005",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "레깅스",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 레깅스",
+        "tags": [
+            "바지",
+            "레깅스"
+        ]
+    },
+    {
+        "name": "점프 슈트/오버올",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003010&caller=CATEGORY&page={page}&size=100",
+        "category": "003010",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "점프 슈트/오버올",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 점프 슈트/오버올",
+        "tags": [
+            "바지",
+            "점프 슈트/오버올"
+        ]
+    },
+    {
+        "name": "기타 하의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=003006&caller=CATEGORY&page={page}&size=100",
+        "category": "003006",
+        "data": [
+            {
+                "name": "바지",
+                "lv": 1
+            },
+            {
+                "name": "기타 하의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "바지 -> 기타 하의",
+        "tags": [
+            "바지",
+            "기타 하의"
+        ]
+    },
+    {
+        "name": "메신저/크로스 백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004002&caller=CATEGORY&page={page}&size=100",
+        "category": "004002",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "메신저/크로스 백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 메신저/크로스 백",
+        "tags": [
+            "원피스/스커트",
+            "메신저/크로스 백"
+        ]
+    },
+    {
+        "name": "숄더백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004003&caller=CATEGORY&page={page}&size=100",
+        "category": "004003",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "숄더백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 숄더백",
+        "tags": [
+            "원피스/스커트",
+            "숄더백"
+        ]
+    },
+    {
+        "name": "백팩",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004001&caller=CATEGORY&page={page}&size=100",
+        "category": "004001",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "백팩",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 백팩",
+        "tags": [
+            "원피스/스커트",
+            "백팩"
+        ]
+    },
+    {
+        "name": "토트백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004015&caller=CATEGORY&page={page}&size=100",
+        "category": "004015",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "토트백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 토트백",
+        "tags": [
+            "원피스/스커트",
+            "토트백"
+        ]
+    },
+    {
+        "name": "에코백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004014&caller=CATEGORY&page={page}&size=100",
+        "category": "004014",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "에코백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 에코백",
+        "tags": [
+            "원피스/스커트",
+            "에코백"
+        ]
+    },
+    {
+        "name": "보스턴/더플백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004006&caller=CATEGORY&page={page}&size=100",
+        "category": "004006",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "보스턴/더플백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 보스턴/더플백",
+        "tags": [
+            "원피스/스커트",
+            "보스턴/더플백"
+        ]
+    },
+    {
+        "name": "웨이스트 백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004007&caller=CATEGORY&page={page}&size=100",
+        "category": "004007",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "웨이스트 백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 웨이스트 백",
+        "tags": [
+            "원피스/스커트",
+            "웨이스트 백"
+        ]
+    },
+    {
+        "name": "파우치 백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004013&caller=CATEGORY&page={page}&size=100",
+        "category": "004013",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "파우치 백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 파우치 백",
+        "tags": [
+            "원피스/스커트",
+            "파우치 백"
+        ]
+    },
+    {
+        "name": "브리프 케이스",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004008&caller=CATEGORY&page={page}&size=100",
+        "category": "004008",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "브리프 케이스",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 브리프 케이스",
+        "tags": [
+            "원피스/스커트",
+            "브리프 케이스"
+        ]
+    },
+    {
+        "name": "캐리어",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004009&caller=CATEGORY&page={page}&size=100",
+        "category": "004009",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "캐리어",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 캐리어",
+        "tags": [
+            "원피스/스커트",
+            "캐리어"
+        ]
+    },
+    {
+        "name": "가방 소품",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004012&caller=CATEGORY&page={page}&size=100",
+        "category": "004012",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "가방 소품",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 가방 소품",
+        "tags": [
+            "원피스/스커트",
+            "가방 소품"
+        ]
+    },
+    {
+        "name": "지갑/머니클립",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004016&caller=CATEGORY&page={page}&size=100",
+        "category": "004016",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "지갑/머니클립",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 지갑/머니클립",
+        "tags": [
+            "원피스/스커트",
+            "지갑/머니클립"
+        ]
+    },
+    {
+        "name": "클러치 백",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=004005&caller=CATEGORY&page={page}&size=100",
+        "category": "004005",
+        "data": [
+            {
+                "name": "원피스/스커트",
+                "lv": 1
+            },
+            {
+                "name": "클러치 백",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "원피스/스커트 -> 클러치 백",
+        "tags": [
+            "원피스/스커트",
+            "클러치 백"
+        ]
+    },
+    {
+        "name": "홈웨어",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026005&caller=CATEGORY&page={page}&size=100",
+        "category": "026005",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            },
+            {
+                "name": "홈웨어",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "속옷/홈웨어 -> 홈웨어",
+        "tags": [
+            "속옷/홈웨어",
+            "홈웨어"
+        ]
+    },
+    {
+        "name": "여성 속옷 상의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026001&caller=CATEGORY&page={page}&size=100",
+        "category": "026001",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            },
+            {
+                "name": "여성 속옷 상의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "속옷/홈웨어 -> 여성 속옷 상의",
+        "tags": [
+            "속옷/홈웨어",
+            "여성 속옷 상의"
+        ]
+    },
+    {
+        "name": "여성 속옷 하의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026002&caller=CATEGORY&page={page}&size=100",
+        "category": "026002",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            },
+            {
+                "name": "여성 속옷 하의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "속옷/홈웨어 -> 여성 속옷 하의",
+        "tags": [
+            "속옷/홈웨어",
+            "여성 속옷 하의"
+        ]
+    },
+    {
+        "name": "여성 속옷 세트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026003&caller=CATEGORY&page={page}&size=100",
+        "category": "026003",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            },
+            {
+                "name": "여성 속옷 세트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "속옷/홈웨어 -> 여성 속옷 세트",
+        "tags": [
+            "속옷/홈웨어",
+            "여성 속옷 세트"
+        ]
+    },
+    {
+        "name": "남성 속옷",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=026004&caller=CATEGORY&page={page}&size=100",
+        "category": "026004",
+        "data": [
+            {
+                "name": "속옷/홈웨어",
+                "lv": 1
+            },
+            {
+                "name": "남성 속옷",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "속옷/홈웨어 -> 남성 속옷",
+        "tags": [
+            "속옷/홈웨어",
+            "남성 속옷"
+        ]
+    },
+    {
+        "name": "상의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017016&caller=CATEGORY&page={page}&size=100",
+        "category": "017016",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "상의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 상의",
+        "tags": [
+            "스포츠/레저",
+            "상의"
+        ]
+    },
+    {
+        "name": "아우터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017018&caller=CATEGORY&page={page}&size=100",
+        "category": "017018",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "아우터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 아우터",
+        "tags": [
+            "스포츠/레저",
+            "아우터"
+        ]
+    },
+    {
+        "name": "상하의세트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017021&caller=CATEGORY&page={page}&size=100",
+        "category": "017021",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "상하의세트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 상하의세트",
+        "tags": [
+            "스포츠/레저",
+            "상하의세트"
+        ]
+    },
+    {
+        "name": "하의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017020&caller=CATEGORY&page={page}&size=100",
+        "category": "017020",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "하의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 하의",
+        "tags": [
+            "스포츠/레저",
+            "하의"
+        ]
+    },
+    {
+        "name": "스커트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017017&caller=CATEGORY&page={page}&size=100",
+        "category": "017017",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "스커트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 스커트",
+        "tags": [
+            "스포츠/레저",
+            "스커트"
+        ]
+    },
+    {
+        "name": "원피스",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017019&caller=CATEGORY&page={page}&size=100",
+        "category": "017019",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "원피스",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 원피스",
+        "tags": [
+            "스포츠/레저",
+            "원피스"
+        ]
+    },
+    {
+        "name": "수영복/비치웨어",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017022&caller=CATEGORY&page={page}&size=100",
+        "category": "017022",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "수영복/비치웨어",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 수영복/비치웨어",
+        "tags": [
+            "스포츠/레저",
+            "수영복/비치웨어"
+        ]
+    },
+    {
+        "name": "신발",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017023&caller=CATEGORY&page={page}&size=100",
+        "category": "017023",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "신발",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 신발",
+        "tags": [
+            "스포츠/레저",
+            "신발"
+        ]
+    },
+    {
+        "name": "기구/용품/장비",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017024&caller=CATEGORY&page={page}&size=100",
+        "category": "017024",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "기구/용품/장비",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 기구/용품/장비",
+        "tags": [
+            "스포츠/레저",
+            "기구/용품/장비"
+        ]
+    },
+    {
+        "name": "가방",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017025&caller=CATEGORY&page={page}&size=100",
+        "category": "017025",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "가방",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 가방",
+        "tags": [
+            "스포츠/레저",
+            "가방"
+        ]
+    },
+    {
+        "name": "잡화",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017026&caller=CATEGORY&page={page}&size=100",
+        "category": "017026",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "잡화",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 잡화",
+        "tags": [
+            "스포츠/레저",
+            "잡화"
+        ]
+    },
+    {
+        "name": "모자",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=017027&caller=CATEGORY&page={page}&size=100",
+        "category": "017027",
+        "data": [
+            {
+                "name": "스포츠/레저",
+                "lv": 1
+            },
+            {
+                "name": "모자",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "스포츠/레저 -> 모자",
+        "tags": [
+            "스포츠/레저",
+            "모자"
+        ]
+    },
+    {
+        "name": "아우터",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106005&caller=CATEGORY&page={page}&size=100",
+        "category": "106005",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "아우터",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 아우터",
+        "tags": [
+            "키즈",
+            "아우터"
+        ]
+    },
+    {
+        "name": "상의",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106004&caller=CATEGORY&page={page}&size=100",
+        "category": "106004",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "상의",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 상의",
+        "tags": [
+            "키즈",
+            "상의"
+        ]
+    },
+    {
+        "name": "신발",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106012&caller=CATEGORY&page={page}&size=100",
+        "category": "106012",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "신발",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 신발",
+        "tags": [
+            "키즈",
+            "신발"
+        ]
+    },
+    {
+        "name": "바지",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106006&caller=CATEGORY&page={page}&size=100",
+        "category": "106006",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "바지",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 바지",
+        "tags": [
+            "키즈",
+            "바지"
+        ]
+    },
+    {
+        "name": "원피스/스커트",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106007&caller=CATEGORY&page={page}&size=100",
+        "category": "106007",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "원피스/스커트",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 원피스/스커트",
+        "tags": [
+            "키즈",
+            "원피스/스커트"
+        ]
+    },
+    {
+        "name": "세트 의류",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106008&caller=CATEGORY&page={page}&size=100",
+        "category": "106008",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "세트 의류",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 세트 의류",
+        "tags": [
+            "키즈",
+            "세트 의류"
+        ]
+    },
+    {
+        "name": "12개월 이하",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106009&caller=CATEGORY&page={page}&size=100",
+        "category": "106009",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "12개월 이하",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 12개월 이하",
+        "tags": [
+            "키즈",
+            "12개월 이하"
+        ]
+    },
+    {
+        "name": "시즌/테마",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106010&caller=CATEGORY&page={page}&size=100",
+        "category": "106010",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "시즌/테마",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 시즌/테마",
+        "tags": [
+            "키즈",
+            "시즌/테마"
+        ]
+    },
+    {
+        "name": "속옷/홈웨어",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106011&caller=CATEGORY&page={page}&size=100",
+        "category": "106011",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "속옷/홈웨어",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 속옷/홈웨어",
+        "tags": [
+            "키즈",
+            "속옷/홈웨어"
+        ]
+    },
+    {
+        "name": "가방/지갑",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106013&caller=CATEGORY&page={page}&size=100",
+        "category": "106013",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "가방/지갑",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 가방/지갑",
+        "tags": [
+            "키즈",
+            "가방/지갑"
+        ]
+    },
+    {
+        "name": "모자",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106014&caller=CATEGORY&page={page}&size=100",
+        "category": "106014",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "모자",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 모자",
+        "tags": [
+            "키즈",
+            "모자"
+        ]
+    },
+    {
+        "name": "액세서리/소품",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106015&caller=CATEGORY&page={page}&size=100",
+        "category": "106015",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "액세서리/소품",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 액세서리/소품",
+        "tags": [
+            "키즈",
+            "액세서리/소품"
+        ]
+    },
+    {
+        "name": "장난감",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106016&caller=CATEGORY&page={page}&size=100",
+        "category": "106016",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "장난감",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 장난감",
+        "tags": [
+            "키즈",
+            "장난감"
+        ]
+    },
+    {
+        "name": "교육",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106017&caller=CATEGORY&page={page}&size=100",
+        "category": "106017",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "교육",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 교육",
+        "tags": [
+            "키즈",
+            "교육"
+        ]
+    },
+    {
+        "name": "홈인테리어/리빙",
+        "url": "https://api.musinsa.com/api2/dp/v1/plp/goods?gf=A&sortCode=SALE_ONE_DAY_COUNT&category=106018&caller=CATEGORY&page={page}&size=100",
+        "category": "106018",
+        "data": [
+            {
+                "name": "키즈",
+                "lv": 1
+            },
+            {
+                "name": "홈인테리어/리빙",
+                "lv": 2
+            }
+        ],
+        "lv": 2,
+        "tagName": "키즈 -> 홈인테리어/리빙",
+        "tags": [
+            "키즈",
+            "홈인테리어/리빙"
+        ]
+    }
+]

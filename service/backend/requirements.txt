@@ -1,0 +1,19 @@
+# FastAPI와 서버 실행
+fastapi
+uvicorn[standard]
+
+# LangChain 및 OpenAI 연동
+langchain
+openai
+tiktoken
+
+# LangSmith 추적 및 실험 관리
+langsmith
+
+# 환경변수 관리용
+python-dotenv
+
+httpx
+
+pydantic
+typing-extensions
