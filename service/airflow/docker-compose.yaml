@@ -53,7 +53,7 @@ x-airflow-common:
   build:
     context: . 
     dockerfile: Dockerfile
-  image: ${AIRFLOW_IMAGE_NAME:-airflow-designovel:2025-3-11}
+  image: ${AIRFLOW_IMAGE_NAME:-airflow-v1:2025-4-30}
   # build: .
   environment:
     &airflow-common-env
@@ -79,7 +79,7 @@ x-airflow-common:
 
 
   volumes:
-    - ${AIRFLOW_PROJ_DIR:-.}/etl/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/src/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
@@ -114,7 +114,7 @@ services:
       POSTGRES_DB: postgres
       TZ: Asia/Seoul
     volumes:
-      - /etl/db:/var/lib/postgresql/data
+      - ${AIRFLOW_PROJ_DIR:-.}/db:/var/lib/postgresql/data
     restart: always
     ports:
       - 5432:5432
@@ -270,6 +270,7 @@ services:
         fi
         mkdir -p /sources/logs /sources/dags /sources/plugins
         chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        chmod -R 777 /sources/logs
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
     environment:

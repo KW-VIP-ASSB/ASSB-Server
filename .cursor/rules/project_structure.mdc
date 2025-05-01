@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+The project is divided into two main parts:
+
+1. **Airflow Directory**: Responsible for extracting data using Airflow and storing it in a PostgreSQL database.
+   - Contains the source code for Airflow DAGs and related components in the `src/` directory.
+   - Database-related configurations or scripts are likely in the `db/` directory.
+   - Environment configurations for Airflow might be in the `airenv/` directory.
+   - Docker setup files: [docker-compose.yaml](mdc:service/airflow/docker-compose.yaml) and [Dockerfile](mdc:service/airflow/Dockerfile).
+
+2. **Backend Directory**: Implemented using FastAPI to open the migrated service database and respond to user queries.
+   - FastAPI service code is located in the `service/` directory.
+   - Environment configurations for FastAPI might be in the `fastenv/` directory.
+
+The database schema is defined in the `service/airflow/src/dags/core/entity` directory, with various classes representing different tables such as `Style`, `StyleVariant`, `StyleImage`, etc.
