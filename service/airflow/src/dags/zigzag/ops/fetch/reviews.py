@@ -66,7 +66,7 @@ class FetchStyleReviewOperator(BaseOperator):
         *,
         style_ids: list[dict],
         max_count: int | None = 5,
-        max_concurrency: int = 50,
+        max_concurrency: int = 10,
         timeout: float = 320.0,
         proxy_key:str = "smartproxy.kr",
         mongo_conn_id:str ="ncp-mongodb",
@@ -95,7 +95,7 @@ class FetchStyleReviewOperator(BaseOperator):
             db=self.cache_config.db,
             collection=self.cache_config.collection,
             transport=httpx.AsyncHTTPTransport( 
-                                            # proxy = proxy, 
+                                            proxy = proxy, 
                                             retries=3),
         )
         
@@ -117,6 +117,8 @@ class FetchStyleReviewOperator(BaseOperator):
 
         try:
             data = content.get("data")
+            if data is None:
+                return []
             reviews = data.get("ux_review_list").get("item_list")
             if not reviews :
                 return []
@@ -141,8 +143,9 @@ class FetchStyleReviewOperator(BaseOperator):
                 author_id=item["reviewer"]["profile"]["id"],
 
                 rating=int(item["rating"]),
-                recommended=True,
-                verifed_purchaser=True,
+                recommended=1,
+                
+                verified_purchaser=1,
                 title=None,
                 text=item["contents"]
             )
@@ -175,7 +178,7 @@ class FetchStyleReviewOperator(BaseOperator):
         reviews = []
         page = await self.fetch(style_idx)
         if page is None :
-            return []
+            raise Exception(f"Page {style_idx} is None")
         review = {
             'content': page ,
             'style_idx': style_idx,

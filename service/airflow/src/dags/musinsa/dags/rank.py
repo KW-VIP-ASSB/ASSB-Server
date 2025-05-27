@@ -14,7 +14,7 @@ from musinsa.ops.transform.styles import TransformStyleDataOperator
 from core.infra.httpx_cache.mongo import MongoDBCacheConfig
 
 __DEFAULT_ARGS__ = {
-    "owner": "yslee",
+    "owner": "jsp",
     "retries": 1,
     "retry_delay": timedelta(seconds=10),
 }
@@ -39,7 +39,7 @@ with dag:
         cache_config=MongoDBCacheConfig(database="musinsa", collection="styles.fetch"),
         retries=10,
         max_page=3,
-    ).expand(inputs=urls)
+    ).expand(inputs=urls[:2])
     reduce_styles = ReduceStyleIdListOperator(
         task_id="fetch.styles.reduce",
         data=fetch_styles.output,
@@ -61,27 +61,6 @@ with dag:
         max_active_tis_per_dag=5,
     ).expand(styles=transform_styles.output)
 
-    mv_update = TriggerDagRunOperator(
-        task_id="update.mv.reviews",
-        trigger_dag_id="refresh.materialviews",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-        trigger_rule="all_done",
-        conf={
-            "refresh_tables": ["mv_style_total_review_count", "mv_style_latest_price", "mv_style_total_aspect_count"],
-        },
-    )
-    image_download = TriggerDagRunOperator(
-        task_id="dag.image.download",
-        trigger_dag_id="images.processing",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-    )
+  
 
-    fetch_styles >> reduce_styles >> fetch_styles_info >> transform_styles >> load >> [mv_update, image_download]  # type: ignore
+    fetch_styles >> reduce_styles >> fetch_styles_info >> transform_styles >> load

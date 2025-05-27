@@ -20,7 +20,6 @@ class Facet(Base):
     name = sa.Column(sa.String(100), nullable=False)
     type = sa.Column(sa.String(50), nullable=False)
     version = sa.Column(sa.String(10), nullable=True, default="original")
-    data = sa.Column(pg.JSONB, default={}, nullable=True)
     created_at = sa.Column(sa.TIMESTAMP(timezone=True), nullable=False, default=datetime.now)
     updated_at = sa.Column(sa.TIMESTAMP(timezone=True), nullable=False, default=datetime.now, onupdate=datetime.now)
 

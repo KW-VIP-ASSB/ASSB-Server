@@ -17,8 +17,8 @@ class Review(Base):
 
     rating = sa.Column(sa.SMALLINT())
 
-    recommended = sa.Column(sa.Boolean())
-    verifed_purchaser = sa.Column(sa.Boolean())
+    recommended = sa.Column(sa.SMALLINT())
+    verified_purchaser = sa.Column(sa.SMALLINT())
     title = sa.Column(sa.Text())
     text = sa.Column(sa.Text())
 

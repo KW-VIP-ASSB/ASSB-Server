@@ -66,7 +66,7 @@ class FetchStyleDetailOperator(BaseOperator):
         *,
         style_ids: list[dict],
         max_count: int | None = 5,
-        max_concurrency: int = 50,
+        max_concurrency: int = 10,
         timeout: float = 320.0,
         proxy_key:str = "smartproxy.kr",
         mongo_conn_id:str ="ncp-mongodb",
@@ -95,7 +95,7 @@ class FetchStyleDetailOperator(BaseOperator):
             db=self.cache_config.db,
             collection=self.cache_config.collection,
             transport=httpx.AsyncHTTPTransport( 
-                                            # proxy = proxy, 
+                                            proxy = proxy, 
                                             retries=3),
         )
         
@@ -104,10 +104,9 @@ class FetchStyleDetailOperator(BaseOperator):
         el = asyncio.get_event_loop()
         details = el.run_until_complete(self.async_task())
         
-        transformed_data = []
-        for detail in details :
-            items = self.transform_data(detail,date=today)
-            transformed_data.append(items)
+        transformed_data = [
+            self.transform_data(detail, date=today) for detail in details if self.transform_data(detail, date=today) is not None
+        ]
         return transformed_data
     
     def transform_data(self, detail: dict, date) -> dict:
@@ -117,7 +116,9 @@ class FetchStyleDetailOperator(BaseOperator):
 
         try:
             data = content.get("data")
-            original_data = data["pdp_option_info"]["catalog_product"]
+            if data is None:
+                return None
+            original_data = data.get("pdp_option_info", {}).get("catalog_product", {})
 
             product_image_list = [img["url"] for img in original_data.get("product_image_list", [])]
 

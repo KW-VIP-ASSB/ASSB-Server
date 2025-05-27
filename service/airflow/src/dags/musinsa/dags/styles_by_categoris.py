@@ -13,7 +13,7 @@ from musinsa.ops.transform.transform_response import TransformResponseDataOperat
 from core.infra.httpx_cache.mongo import MongoDBCacheConfig
 
 __DEFAULT_ARGS__ = {
-    "owner": "yslee",
+    "owner": "jsp",
     "retries": 1,
     "retry_delay": timedelta(seconds=10),
 }
@@ -63,37 +63,12 @@ with dag:
         response_list=fetch_styles_info.output
     )
 
-    concat_transform = FlattenTransformDataOperator(
-        task_id="transform.data.flatten", transform_data=transform_response.output, retries=0
-    )
-    transforms = transform_response >> concat_transform
 
-    load = MusinsaLoadDataOperator(
+
+    load = MusinsaLoadDataOperator.partial(
         task_id="load.data",
-        transform_data=transforms.output,  # type: ignore
         retries=0,
-    )
+    ).expand(transform_data=transform_response.output)
 
-    mv_update = TriggerDagRunOperator(
-        task_id="update.mv.reviews",
-        trigger_dag_id="refresh.materialviews",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-        trigger_rule="all_done",
-        conf={
-            "refresh_tables": ["mv_style_total_review_count", "mv_style_latest_price", "mv_style_total_aspect_count"],
-        },
-    )
-    image_download = TriggerDagRunOperator(
-        task_id="dag.image.download",
-        trigger_dag_id="images.processing",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-    )
-    fetch_styles >> reduce_styles >> fetch_styles_info >> transforms >> load >> [mv_update, image_download]  # type: ignore
+    
+    fetch_styles >> reduce_styles >> fetch_styles_info >> transform_response >> load 

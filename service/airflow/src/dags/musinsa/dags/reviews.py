@@ -11,7 +11,7 @@ from musinsa.ops.transform.reviews import TransformReviewResponseDataOperator
 from core.infra.httpx_cache.mongo import MongoDBCacheConfig
 
 __DEFAULT_ARGS__ = {
-    "owner": "yslee",
+    "owner": "jsp",
     "retries": 1,
     "retry_delay": timedelta(seconds=10),
 }
@@ -58,17 +58,5 @@ with dag:
         retries=0,
         max_active_tis_per_dag=inputs.get("max_active_tis_per_dag").get("load", 1),
     ).expand(reviews=transforms.output)
-    mv_update = TriggerDagRunOperator(
-        task_id="update.mv.reviews",
-        trigger_dag_id="refresh.materialviews",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-        trigger_rule="all_done",
-        conf={
-            "refresh_tables": ["mv_style_total_review_count", "mv_style_latest_price", "mv_style_total_aspect_count"],
-        },
-    )
-    ids >> fetch_reviews >> transforms >> load >> mv_update  # type: ignore
+    
+    ids >> fetch_reviews >> transforms >> load

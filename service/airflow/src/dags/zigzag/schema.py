@@ -160,7 +160,7 @@ class ZigzagSchema(BaseModel):
                     elif "남성" in value:
                         gender = "남성"
                     else:
-                        gender = "기타"
+                        gender = "유니섹스"
                 elif depth in [3, 4]:
                     category_parts.append(value)
 

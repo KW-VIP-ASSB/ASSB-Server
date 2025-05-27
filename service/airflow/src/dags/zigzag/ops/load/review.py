@@ -1,4 +1,3 @@
-
 from airflow.models.baseoperator import BaseOperator
 from airflow.utils.context import Context
 from core.entity.reviews import Review, StyleReview
@@ -40,6 +39,7 @@ class ReviewLoadDataOperator(BaseOperator):
             if str(review["review_id"]) in exist_review_idxs:
                 return True
             review["text"] = "" if review["text"] is None else review["text"].encode().decode().replace("\x00", "\n")
+            
             return False
         reviews = list(filter(lambda review: not review_exist(review), reviews))
 

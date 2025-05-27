@@ -46,18 +46,5 @@ with dag:
 
     load = ReviewLoadDataOperator.partial(task_id="load.data",max_active_tis_per_dag=1, retries=0).expand( reviews=reduce_styles.output)
 
-    mv_update = TriggerDagRunOperator(
-        task_id="update.mv.reviews",
-        trigger_dag_id="refresh.materialviews",
-        trigger_run_id=None,
-        execution_date=pendulum.now("UTC"),
-        reset_dag_run=True,
-        wait_for_completion=False,
-        poke_interval=60,
-        trigger_rule="all_done",
-        conf={
-            "refresh_tables": ["mv_style_total_review_count", "mv_style_latest_price", "mv_style_total_aspect_count"],
-        },
-    )
-
-    ids >> fetch_reviews >> reduce_styles >> load >> mv_update
+   
+    ids >> fetch_reviews >> reduce_styles >> load 
