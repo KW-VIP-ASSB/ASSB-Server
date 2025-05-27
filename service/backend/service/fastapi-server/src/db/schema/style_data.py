@@ -9,8 +9,9 @@ class StyleData(BaseModel):
     site_id: str
     name: str
     url: str
+    data: Optional[Dict[str, Any]] = {}
     price: Dict[str, Any]
     image: Dict[str, Any]
-    metadata: Dict[str, Any]
+    metadata: Optional[Dict[str, Any]] = {}
     facets: Dict[str, Any]
     success: Optional[bool] = True 

@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from src.db.database import get_db
 from src.db.schema.style import Style, StylePrice, StyleImage, StyleMetadata
 from src.db.schema.facets import StyleFacet, Facet
+from src.db.schema.reviews import Review, StyleReview
 
 router = APIRouter(tags=["styles"])
 
@@ -116,6 +117,36 @@ async def get_style(
                     
                     facet_groups[facet_type].append(facet_name)
             
+            # Query reviews
+            reviews_query = select(
+                Review.review_id,
+                Review.text,
+            ).join(
+                StyleReview,
+                StyleReview.review_id == Review.id
+            ).where(
+                StyleReview.site_id == site_id,
+                StyleReview.style_id == style_id_value
+            ).order_by(
+                desc(Review.writed_at)
+            ).limit(10)
+            
+            reviews_result = db.execute(reviews_query).fetchall()
+            
+            # Format reviews
+            reviews = []
+            for review in reviews_result:
+                reviews.append({
+                    "review_id": review[0],
+                    "author_name": review[1],
+                    "rating": review[2],
+                    "recommended": review[3],
+                    "verified_purchaser": review[4],
+                    "title": review[5],
+                    "text": review[6],
+                    "writed_at": review[7].isoformat() if review[7] else None
+                })
+
             # Format the response for this style - convert style_id_value to string
             response[str(style_id_value)] = {
                 "success": True,
@@ -135,7 +166,8 @@ async def get_style(
                     "description": metadata_result[0] if metadata_result else None,
                     "data": metadata_result[1] if metadata_result else {}
                 },
-                "facets": dict(facet_groups)
+                "facets": dict(facet_groups),
+                "reviews": reviews
             }
         except Exception as e:
             # Handle any exception that might occur during processing
