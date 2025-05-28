@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "superbasket-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/home/jspark9703/project/kw_vip/service/mcp-server/mcp-server-demo",
+        "run",
+        "server.py"
+      ],
+      "env": {
+        "SESSION": "MQ==",
+        "API_BASE_URL": "http://localhost:8000"
+      }
+    }
+  }
+}

@@ -58,8 +58,8 @@ async def read_baskets(
             "data": None
         }
 
-@router.get("/baskets/{basket_id}")
-async def read_basket(basket_id: int, token: str, db: Session = Depends(get_db)):
+@router.get("/baskets/{name}")
+async def read_basket(name: str, token: str, db: Session = Depends(get_db)):
     try:
         user_id = decode_token(token)
         
@@ -72,7 +72,7 @@ async def read_basket(basket_id: int, token: str, db: Session = Depends(get_db))
                 "data": None
             }
         
-        basket = db.query(Basket).filter(Basket.id == basket_id, Basket.user_id == user_id).first()
+        basket = db.query(Basket).filter(Basket.user_id == user_id, Basket.name == name).first()
         if basket is None:
             return {
                 "success": False,
@@ -153,11 +153,10 @@ async def create_basket(
             "data": None
         }
 
-@router.put("/baskets/{basket_id}")
+@router.put("/baskets/{name}")
 async def update_basket(
-    basket_id: int,
+    name: str,
     token: str,
-    name: Optional[str] = None,
     style_data: Dict[str, StyleData] = Body(...),  # Required body
     db: Session = Depends(get_db)
 ):
@@ -173,8 +172,8 @@ async def update_basket(
                 "data": None
             }
         
-        # Get the basket
-        basket = db.query(Basket).filter(Basket.id == basket_id, Basket.user_id == user_id).first()
+        # Get the basket by user_id and name
+        basket = db.query(Basket).filter(Basket.user_id == user_id, Basket.name == name).first()
         if basket is None:
             return {
                 "success": False,
@@ -195,9 +194,6 @@ async def update_basket(
         merged_style_infos = {**existing_style_infos, **new_style_infos}
         
         # Update basket fields
-        if name is not None:
-            basket.name = name
-        
         basket.style_ids = merged_style_ids
         basket.style_infos = merged_style_infos
         
@@ -221,8 +217,8 @@ async def update_basket(
             "data": None
         }
 
-@router.delete("/baskets/{basket_id}")
-async def delete_basket(basket_id: int, token: str, db: Session = Depends(get_db)):
+@router.delete("/baskets/{name}")
+async def delete_basket(name: str, token: str, db: Session = Depends(get_db)):
     try:
         user_id = decode_token(token)
         
@@ -235,8 +231,8 @@ async def delete_basket(basket_id: int, token: str, db: Session = Depends(get_db
                 "data": None
             }
         
-        # Get the basket
-        basket = db.query(Basket).filter(Basket.id == basket_id, Basket.user_id == user_id).first()
+        # Get the basket by user_id and name
+        basket = db.query(Basket).filter(Basket.user_id == user_id, Basket.name == name).first()
         if basket is None:
             return {
                 "success": False,
@@ -250,7 +246,7 @@ async def delete_basket(basket_id: int, token: str, db: Session = Depends(get_db
         return {
             "success": True,
             "message": None,
-            "data": {"id": basket_id}
+            "data": {"name": name}
         }
     except Exception as e:
         return {

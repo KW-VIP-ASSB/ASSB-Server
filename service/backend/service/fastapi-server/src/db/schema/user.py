@@ -1,7 +1,7 @@
 from pydantic import BaseModel, EmailStr
 from typing import Optional, List, Dict, Any
 from datetime import datetime
-from sqlalchemy import Boolean, Column, Integer, String, DateTime, BigInteger, ForeignKey
+from sqlalchemy import Boolean, Column, Integer, String, DateTime, BigInteger, ForeignKey, UniqueConstraint
 from sqlalchemy.sql import func
 from sqlalchemy.dialects.postgresql import JSONB
 from ..database import Base
@@ -57,4 +57,8 @@ class Basket(Base):
     style_ids = Column(JSONB, default=[], nullable=False)
     style_infos = Column(JSONB, default={}, nullable=False)
     created_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now()) 
+    updated_at = Column(DateTime(timezone=True), nullable=False, server_default=func.now(), onupdate=func.now())
+
+    __table_args__ = (
+        UniqueConstraint('user_id', 'name', name='uix_basket_user_name'),
+    ) 
