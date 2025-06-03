@@ -4,13 +4,27 @@ from src.llm.routes import router as llm_router
 from src.db.database import SessionLocal
 from sqlalchemy import text
 import logging
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
 
 # Configure simple logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("app")
 
 app = FastAPI(title="API and LLM Service")
+origins = [
+    "http://localhost:3000",
+    "http://localhost:8000",
+]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # API routes for database operations
 app.include_router(api_router, prefix="/api", tags=["api"])
 
