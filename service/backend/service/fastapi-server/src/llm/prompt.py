@@ -11,16 +11,16 @@ review_prompt = ChatPromptTemplate.from_messages([
         3. 자주 언급되는 단점
 
         다음 형식으로 답변하세요:
-        {
-            "overall_rating": {
+        {{
+            "overall_rating": {{
                 "score": "평균 평점(5점 만점)",
                 "recommendation": "추천해요 또는 비추천해요",
                 "satisfaction": "만족해요, 보통이에요, 최악이에요"
-            },
+            }},
             "pros": ["장점1", ...],
             "cons": ["단점1", ...],
             "summary": "요약"
-        }
+        }}
         """
     ),
     ("human", "사용자 정보: {user_info}\n\n리뷰 텍스트: {review_text}")
