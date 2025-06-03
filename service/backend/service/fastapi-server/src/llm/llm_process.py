@@ -1,5 +1,5 @@
-from chains import review_chain
-from chains import get_fit_chain
+from src.llm.chains import review_chain
+from src.llm.chains import get_fit_chain
 from langchain_core import exceptions
 from langsmith import traceable
 import logging
