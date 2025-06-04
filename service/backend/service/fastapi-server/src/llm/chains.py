@@ -1,11 +1,11 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.runnables import RunnableMap, RunnableLambda, RunnableSequence
-from prompt import review_prompt, fit_prompt
+from src.llm.prompt import review_prompt, fit_prompt
 
 import os
 from langchain.chains import RetrievalQA
-from init_store import load_vectorstore
+from src.llm.init_store import load_vectorstore
 from dotenv import load_dotenv
 
 load_dotenv()

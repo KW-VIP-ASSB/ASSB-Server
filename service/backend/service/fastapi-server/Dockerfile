@@ -24,10 +24,10 @@ ENV PYTHONPATH=/app
 
 # Set PostgreSQL connection environment variables
 # host.docker.internal points to the host machine from within the container
-ENV POSTGRES_HOST=host.docker.internal
-ENV POSTGRES_USER=airflow
-ENV POSTGRES_PASSWORD=airflow
-ENV POSTGRES_DB=postgres
+ENV POSTGRES_HOST=219.255.242.174
+ENV POSTGRES_USER=myuser
+ENV POSTGRES_PASSWORD=mypassword
+ENV POSTGRES_DB=mydatabase
 ENV POSTGRES_PORT=5432
 
 # Environment variables will be loaded from .env file
