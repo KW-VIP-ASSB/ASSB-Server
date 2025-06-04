@@ -20,7 +20,14 @@ class TransformReviewResponseDataOperator(BaseOperator):
         return reviews
 
     def transform(self, review:dict, date:datetime)->dict:
+        # createDate가 timezone 정보가 없을 수 있으므로, UTC로 명시적으로 지정
         writed_at = datetime.fromisoformat(review["createDate"])
+        if writed_at.tzinfo is None:
+            import pendulum
+            writed_at = pendulum.instance(writed_at, tz="UTC")
+        else:
+            import pendulum
+            writed_at = pendulum.instance(writed_at)
         writed_date = writed_at.replace(hour=0, minute=0, second=0, microsecond=0)
         text=review["content"].encode().decode().replace("\x00", "\n") if review["content"] is not None else None
         return dict(
@@ -29,7 +36,7 @@ class TransformReviewResponseDataOperator(BaseOperator):
             site_id="iylQhcSbkgVxi0Ye",
             rating=review["grade"],
             recommended=False,
-            verifed_purchaser=False,
+            verified_purchaser=False,
             title=None,
             text=text,
             author_id=review['encryptedUserId'],

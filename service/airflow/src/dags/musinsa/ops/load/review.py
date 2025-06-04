@@ -1,7 +1,4 @@
-import asyncio
-import logging
 
-import httpx
 from airflow import XComArg
 from airflow.models.baseoperator import BaseOperator
 from airflow.utils.context import Context
@@ -24,8 +21,7 @@ class MusinsaReviewLoadDataOperator(BaseOperator):
         self.reviews = reviews
 
     def execute(self, context: Context):
-        today = context['execution_date'].in_timezone("UTC").today() # type: ignore
-        ti = context['task_instance'] # type: ignore
+       
         postgres_hook = PostgresHook(postgres_conn_id=self.db_conn_id)
         db = Database(db_hook=postgres_hook.connection, echo=False)
         self.log.info(self.reviews[0])
