@@ -6,8 +6,6 @@ from sqlalchemy import text
 import logging
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI()
-
 # Configure simple logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("app")
@@ -16,6 +14,7 @@ app = FastAPI(title="API and LLM Service")
 origins = [
     "http://localhost:3000",
     "http://localhost:8000",
+    "chrome-extension://__YOUR_EXTENSION_ID__"
 ]
 
 app.add_middleware(
