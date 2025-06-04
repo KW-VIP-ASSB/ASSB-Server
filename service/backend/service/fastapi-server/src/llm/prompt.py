@@ -10,7 +10,7 @@ review_prompt = ChatPromptTemplate.from_messages([
         2. 자주 언급되는 장점
         3. 자주 언급되는 단점
 
-        다음 형식으로 답변하세요:
+        아래 JSON 형식으로 답변하세요:
         {{
             "overall_rating": {{
                 "score": "평균 평점(5점 만점)",
