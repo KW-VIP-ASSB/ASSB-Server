@@ -14,7 +14,8 @@ app = FastAPI(title="API and LLM Service")
 origins = [
     "http://localhost:5173",
     "http://localhost:8000",
-    "chrome-extension://__YOUR_EXTENSION_ID__"
+    "chrome-extension://oabadmkfndlkfghlpeplhfbdmliboeon",
+    "chrome-extension://nagfgdhdnbjafoacdbdjeijgebdjajjf"
 ]
 
 app.add_middleware(
