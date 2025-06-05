@@ -4,8 +4,13 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends gcc libpq-dev && \
-    apt-get clean && \
+    apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    libc-dev \
+    python3-dev \
+    libpq-dev \
+    && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better caching
