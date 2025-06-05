@@ -106,6 +106,8 @@ async def analyze_fit(request: FitItemRequest, db: Session = Depends(get_db)):
             "data": fit_result
         }
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return {
             "success": False,
             "message": str(e),

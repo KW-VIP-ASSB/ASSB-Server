@@ -1,5 +1,5 @@
 import asyncio
-from llm_process import fit_item
+from src.llm.llm_process import fit_item
 
 # 테스트용
 user_info = {
