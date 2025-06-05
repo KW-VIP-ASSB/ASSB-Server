@@ -25,18 +25,6 @@ review_prompt = ChatPromptTemplate.from_messages([
             "cons": ["단점1", ...],
             "summary": "리뷰 전체 요약과 사용자 특성을 반영한 해석을 포함한 평가 요약"
         }}
-        
-        예시:
-        {{
-            "overall_rating": {{
-                "score": "4.5",
-                "recommendation": "추천해요",
-                "satisfaction": "만족해요"
-            }},
-            "pros": ["오버핏이라 체형 커버에 좋음", "소재가 부드럽고 편안함"],
-            "cons": ["기장이 길어 키가 작으면 수선 필요"],
-            "summary": "사용자는 마른 체형의 여성으로, 오버핏 디자인이 체형을 자연스럽게 커버해 만족도가 높았던 것으로 보입니다. 다만 기장이 긴 편이라 키가 작은 사용자의 경우 수선이 필요할 수 있습니다."
-        }}
         """
     ),
     ("human", "사용자 정보: {user_info}\n\n리뷰 텍스트: {review_text}")
